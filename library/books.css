@@ -1,0 +1,195 @@
+@import "reset.css";
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+body {
+  height: 100vh;
+}
+
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  width: 100%;
+}
+.title-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffce33;
+  font-size: 25px;
+  padding: 35px 15px 70px 15px;
+  width: 100%;
+}
+
+.title-bar__name {
+  font-weight: bold;
+}
+
+.search-books {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  margin: 0 20px;
+  border: 1px solid white;
+  box-shadow: 0 6px #f7f7f7;
+  border-radius: 30px;
+  background-color: white;
+  padding: 0 20px;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: 30px;
+}
+
+.search-books__txt {
+  font-weight: bold;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bolder;
+}
+
+.book-today__cover {
+  height: 220px;
+  width: 150px;
+}
+
+.book-today__info,
+.top-adven__list,
+.popular-authors__info {
+  margin: 35px 0;
+  display: flex;
+}
+
+.bookt-today__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.details__name,
+.popular-authors____name {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.details__author,
+.popular-authors____introduce {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.3;
+}
+
+.details__category {
+  display: flex;
+  margin: 15px 0;
+}
+
+.book__category {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: rgba(235, 235, 235, 0.897);
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.details__user__select {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  margin-bottom: 5px;
+}
+
+.bookmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #ffce33;
+}
+
+.bookNow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+
+.top-adven__list {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.top-adven__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+}
+.top-adven__cover {
+  height: 150px;
+  width: 100px;
+}
+
+.top-adven__stars {
+  font-size: 10px;
+  margin: 20px 0;
+}
+
+.popular-authors__picture {
+  height: 190px;
+  width: 160px;
+  margin-right: 30px;
+}
+
+.popular-authors__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 0;
+  width: 300px;
+}
+
+.popular-authors____name,
+.popular-authors____introduce {
+  line-height: 27px;
+}
+
+.popular-authors____name {
+  padding-bottom: 20px;
+}
+
+.popular-authors__info {
+  align-items: center;
+}
+
+.fa-star {
+  color: #fece33;
+}
+
+.grey-star {
+  color: #ededed;
+}
